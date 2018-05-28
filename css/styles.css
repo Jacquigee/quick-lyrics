@@ -1,0 +1,27 @@
+.name {
+  background-color: red;
+}
+
+
+
+.topRow {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.textField {
+  background-color: red;
+  flex: 3;
+  order: 1;
+}
+
+.button {
+  background-color: yellow;
+  flex: 1;
+  order: 2;
+}
+
+#lyricsDisplay {
+  background-color: skyblue;
+  padding-top: 10px;
+}
