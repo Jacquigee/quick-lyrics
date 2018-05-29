@@ -7,6 +7,7 @@
 .topRow {
   display: flex;
   padding-bottom: 10px;
+  margin-top: 2px;
 }
 
 .textField {
@@ -16,12 +17,50 @@
 }
 
 .button {
-  background-color : orange;
+  background-color : rgb(87, 201, 112);
   flex: 1;
   order: 2;
 }
 
 #lyricsDisplay {
-  background-color: rgba(216, 188, 29, 0.74);
+  background-color: rgba(99, 233, 117, 0.74);
   padding-top: 10px;
+  width: 100%;
+}
+
+.inputFields{
+  width: 70%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  shape-margin: 50px;
+  }
+.getLyrics{
+  padding-top: 60px;
+ 
+  padding-left: 70px; 
+
+}
+.jumbotron{
+background-color: blueviolet;
+margin-top: 5px;
+background-image: url("../images/lyrics1.jpeg")
+
+}
+header{
+  flex: 4;
+  order: 1;
+}
+img {
+  flex:1;
+  order:2;
+  height: 50px;
+  width: 50px;
+  
+}
+header{
+  text-align: center;
+  font-size: 50px;
+  color:rgb(219, 74, 30);
+  font-style: oblique;
 }
