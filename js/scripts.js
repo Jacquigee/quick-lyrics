@@ -10,10 +10,10 @@
 
             $.getJSON(url)
             .done(function(data){
-                 /*data.forEach(display =>{
+                 /*data.forEach(display =>{ */
                     $("p#display").append(`<p>${data["lyrics"]}</p>`) 
                     
-                } );*/
+               /* } );*/
                 
            console.log(data["lyrics"]);
 
