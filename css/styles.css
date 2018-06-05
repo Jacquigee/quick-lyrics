@@ -5,18 +5,18 @@
 }
 
 .textField {
-  background-color: hotpink;
+  background-color:green;
   flex: 3;
   order: 1;
 }
 
 .button {
-  background-color: pink;
+  background-color : orange;
   flex: 1;
   order: 2;
 }
 
 #lyricsDisplay {
-  background-color: skyblue;
+  background-color: rgba(216, 188, 29, 0.74);
   padding-top: 10px;
 }
