@@ -18,14 +18,31 @@
 
     <div class="container topRow">
       <div class="textField">
-
+        <form class="form-horizontal" action="index.html" method="post">
+          <div class="form-group">
+            <label for="usr" class="label">Artist Name:</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="Artist">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="pwd" class="label">Song Name:</label>
+            <div class="col-sm-10">
+              <input type="songName" class="form-control" id="songName">
+            </div>
+          </div>
+        </form>
       </div>
       <div class="button">
-        <p>This is the button section</p>
+        <button type="button" class="btn btn-primary">Get Lyrics</button>
       </div>
     </div>
     <div class="container bottom">
-      <textarea name="name" cols="121" id="lyricsDisplay"></textarea>
+      <div class="row">
+        <div class="col-md-12">
+          <textarea name="name" cols="121px" id="lyricsDisplay"></textarea>
+        </div>
+      </div>
     </div>
   </body>
 </html>
