@@ -67,4 +67,16 @@ header{
 #display{
   background-color:aqua;
   font-size: 20px;
+  flex:1;
+  order:1;
+}
+.bottom{
+  display:flex;
+
+}
+#player{
+  background-color:rgb(94, 255, 0);
+  
+  flex:2;
+  order:2;
 }
