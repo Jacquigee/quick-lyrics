@@ -11,10 +11,10 @@
             $.getJSON(url)
             .done(function (data){
                 
-            /* console.log(data["lyrics"]); */
+            console.log(data["lyrics"]);
             
             
-                <p>${data["lyrics"]}</p>
+                /*<p>${data["lyrics"]}</p>*/
 
 
 
