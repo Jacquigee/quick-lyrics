@@ -10,12 +10,7 @@ $ (document).ready(function() {
 
            $.getJSON(url)
            .done(function (data){
-             /*data.forEach(function (data){ */
-               /*$('p#display')
-             }); */
-              /*console.log(data["lyrics"]); */
-               /*<p>${data["lyrics"]}</p> */
-               document.getElementById("display").innerHTML;
+            $("p#display").append(`<p>${data["lyrics"]}</p>`)
            });
        });
    });
