@@ -7,7 +7,7 @@ quick-lyrics is a web application that has been designed for users to search lyr
 ### Dennis
 ### Adam
 
-##Setup
+## Setup
 git clone https://github.com/Jacquigee/quick-lyrics.git
 Open index.html
 
