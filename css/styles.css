@@ -22,10 +22,8 @@
   order: 2;
 }
 
-#lyricsDisplay {
-  background-color: rgba(99, 233, 117, 0.74);
-  padding-top: 10px;
-  width: 100%;
+#display {
+  background-color: orange;
 }
 
 .inputFields{
