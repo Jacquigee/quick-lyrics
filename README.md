@@ -11,7 +11,7 @@ quick-lyrics is a web application that has been designed for users to search lyr
 git clone https://github.com/Jacquigee/quick-lyrics.git
 Open index.html
 
-##Languages Used
+## Languages Used
   ##     HTML
   ##     CSS
   ##     JS
