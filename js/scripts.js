@@ -3,7 +3,7 @@ $ (document).ready(function() {
            event.preventDefault();
            $("p#display").empty();
 
-           var artiste = $("input#artiste").val();
+           var artiste = $("input#artist").val();
            var title = $("input#title").val();
 
            var url = `https://api.lyrics.ovh/v1/${artiste}/${title}`;
